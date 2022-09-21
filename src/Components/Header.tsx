@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from 'react';
+import Headerlogo from '../Elements/Headerlogo';
+import Navbar from '../Elements/Navbar';
 function Header() {
   return (
     <header className='Header-component'>
-        <div className='Header-logo'>
-            <span className='Header-logo-style'>Aniradio</span>
-        </div>
+        <Headerlogo />
+        <Navbar />
     </header>
   )
 }
