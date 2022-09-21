@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from 'react';
+import styles from './Elements.module.css';
 function Headerlogo() {
   return (
-    <div className='Header-logo'>
-       <span className='Header-logo-style'>Aniradio</span>
+    <div id={styles.HeaderLogo}>
+      <span id={styles.HeaderLogoStyle}>
+        <span id={styles.opzon}>OPZON</span>.FM
+      </span>
     </div>
   )
 }

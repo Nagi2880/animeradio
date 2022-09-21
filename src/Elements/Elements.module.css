@@ -1,0 +1,37 @@
+/* All Headerlogo.tsx css styles*/
+
+#HeaderLogoStyle{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 40px;
+}
+#opzon{
+    color:rgb(92, 0, 0);
+}
+
+/*All Navbar.tsx css styles*/
+#HeaderNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* Css for the buttons on the navbar*/
+#Navbutton{
+    background-color: none;
+    margin: 10px;
+    background-color: white;
+    border-color: white;
+    border-style: none;
+}
+
+#NavbuttonContainer{
+    list-style: none;
+    display: inline;
+
+}
+
+#NavbuttonSign{
+    background-color: white;
+    margin: 10px;
+    border-color: rgb(92, 0, 0);
+}
