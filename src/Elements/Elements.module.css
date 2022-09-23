@@ -4,6 +4,8 @@
     font-family: 'Montserrat';
     font-weight: bolder;
     font-size: 40px;
+    color: white;
+    margin-left: 20px;
 }
 #opzon{
     color:rgb(92, 0, 0);
@@ -17,13 +19,18 @@
 }
 /* Css for the buttons on the navbar*/
 #Navbutton{
-    background-color: none;
-    margin: 10px;
-    background-color: white;
-    border-color: white;
-    border-style: none;
-}
+    font-family: 'Montserrat';
+    font-weight: 800;
+    
 
+    background-color: transparent;
+    margin: 10px;
+    border-style: none;
+    color: white;
+}
+#Navbutton:hover{
+    color: rgb(92, 0, 0);
+}
 #NavbuttonContainer{
     list-style: none;
     display: inline;
@@ -31,7 +38,15 @@
 }
 
 #NavbuttonSign{
-    background-color: white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+
+    background-color: transparent;
     margin: 10px;
-    border-color: rgb(92, 0, 0);
+    padding: 1em;
+    color: white;
+}
+#NavbuttonSign:hover{
+    color: rgb(92, 0, 0);
+    border-color: rgba(255, 1, 1, 0.63);
 }

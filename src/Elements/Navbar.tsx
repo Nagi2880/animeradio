@@ -19,13 +19,13 @@ function Navbar() {
   return (
     <div id={styles.HeaderNavbar}>
             <li id={styles.NavbuttonContainer}>
-              <button id={styles.Navbutton}>Idioma</button>
+              <button id={styles.Navbutton}>IDIOMA</button>
             </li>
             <li id={styles.NavbuttonContainer}>
-              <button id={styles.Navbutton} onClick={SongsRoute}>Canciones</button>
+              <button id={styles.Navbutton} onClick={SongsRoute}>CANCIONES</button>
             </li>
             <li id={styles.NavbuttonContainer}>
-              <button id={styles.NavbuttonSign} onClick={SignInRoute}> <img src="" alt="Sign in img" />Iniciar sesion</button>
+              <button id={styles.NavbuttonSign} onClick={SignInRoute}>INICIAR SESION</button>
             </li> 
     </div>
     );

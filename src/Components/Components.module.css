@@ -2,5 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+    background-image: linear-gradient(to right,black 0%, rgb(92,0,0)  51%, black  100%) ;
 }
+         
+
+ 
