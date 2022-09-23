@@ -31,10 +31,23 @@
 #Navbutton:hover{
     color: rgb(92, 0, 0);
 }
+.IdiomContainer{
+    position: relative;
+    display: inline-block;
+
+}
 #NavbuttonContainer{
+
     list-style: none;
     display: inline;
 
+}
+#NavbuttonSign{
+    border-color: transparent;
+}
+#NavbuttonSign:hover{
+    color: rgb(92, 0, 0);
+    border: solid 2px rgba(255, 0, 0, 0.692)
 }
 
 #NavbuttonSign{
@@ -46,7 +59,14 @@
     padding: 1em;
     color: white;
 }
-#NavbuttonSign:hover{
-    color: rgb(92, 0, 0);
-    border-color: rgba(255, 1, 1, 0.63);
+
+
+/* Dropdowns*/
+ #DropdownLeng{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+    top: 50px;
 }

@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <div id={styles.HeaderNavbar}>
-            <li id={styles.NavbuttonContainer}>
+            <li id={styles.NavbuttonContainer} className={styles.IdiomContainer}>
               <button id={styles.Navbutton}>IDIOMA</button>
             </li>
             <li id={styles.NavbuttonContainer}>
